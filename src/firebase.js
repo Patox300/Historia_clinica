@@ -7,7 +7,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAyLrWjKXaBHbB3cPtESp2gAMKtzsn7EDI",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "nutri-sandra.firebaseapp.com",
   projectId: "nutri-sandra",
   storageBucket: "nutri-sandra.firebasestorage.app",
