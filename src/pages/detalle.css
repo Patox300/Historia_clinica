@@ -1,0 +1,62 @@
+.dparent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto repeat(5, 1fr);
+  color: #000;
+}
+
+.ddiv1 { grid-area: 1 / 1 / 2 / 6; }
+.ddiv2 { grid-area: 2 / 1 / 4 / 3; }
+.ddiv3 { grid-area: 2 / 3 / 4 / 5; }
+.ddiv4 { grid-area: 4 / 1 / 6 / 3; }
+.ddiv5 { grid-area: 4 / 3 / 6 / 5; }
+.ddiv6 { grid-area: 2 / 5 / 6 / 6; }
+
+#textarea{
+  resize: none;
+display:block;
+width: 260px; height: 80px;
+background-color: #e4d8cb;
+    border: 2px solid #664e44
+
+}
+#textdetalle{
+  resize: none;
+display:block;
+width: fit-content; height: fit-content;
+background-color: #e4d8cb;
+    border: 2px solid #664e44
+
+}
+input{
+  background-color: #e4d8cb;
+    border: 2px solid #664e44
+}
+.ddiv1{
+  font-size: 40px;
+  color: #000;
+  margin-top: -15px;
+  margin-bottom: -20px;
+  font-family: 'Great Vibes', cursive;
+}
+.ddiv2{
+    padding: 30px;
+     border: 3mm ridge rgb(102 78 68 / 0.6);
+    
+}
+.ddiv3{
+    padding: 30px;
+     border: 3mm ridge rgb(102 78 68 / 0.6);
+}
+.ddiv4{
+    padding: 30px;
+     border: 3mm ridge rgb(102 78 68 / 0.6);
+}
+.ddiv5{
+    padding: 30px;
+     border: 3mm ridge rgb(102 78 68 / 0.6);
+}
+h3{
+  width: fit-content;
+  height: fit-content;
+}
